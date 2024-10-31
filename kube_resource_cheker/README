@@ -1,5 +1,7 @@
 ## Kube Resource Checker
 
+version: 0.1
+
 This script is for checking the status of resources in Kubernetes cluster.
 It will check the amount of given resources in the cluster and output the summary of the resources in the cluster.
 
