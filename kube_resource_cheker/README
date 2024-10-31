@@ -1,0 +1,24 @@
+## Kube Resource Checker
+
+This script is for checking the status of resources in Kubernetes cluster.
+It will check the amount of given resources in the cluster and output the summary of the resources in the cluster.
+
+### Usage
+
+```
+# python3 kube_resource_checker.py -r <resource> -l <label>
+```
+```
+# python3 kube_resource_checker.py <resource> <label>
+```
+
+### Example
+```
+# python3 kube_resource_checker.py -r gpu -l job=training
+```
+
+```
+# python3 kube_resource_checker.py sriov job=ib
+```
+
+
